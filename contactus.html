@@ -70,7 +70,7 @@
             </div>
             <div class="col">
 				<i class="fa fa-phone"></i> 1-206-555-1234<br>
-            	<i class="fa fa-envelope"></i> campsites@nucamp.co
+                <i class="fa fa-envelope"></i> campsites@nucamp.co
             </div>
         </div>
 
@@ -80,9 +80,49 @@
                 <hr />
             </div>
             <div class="col-md-10">
-                Form goes here
+                <form action="">
+                    <div class="row">
+                        <label for="firstName" class="col-md-2">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="lastName" class="col-md-2">Last Name</label>
+                        <div class="col-md-5">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="phone" class="col-md-2">Phone</label>
+                        <div class="col-md-5">
+                            <input type="tel" name="phone" id="phone" placeholder="Type your phone number here.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="email" class="col-md-2">Email</label>
+                        <div class="col-md-5">
+                            <input type="email" name="email" id="email" placeholder="Type your email here.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="contactRadio" class="col-md-3">May we can contact you?</label>
+                        <div class="col-md-9">
+                            <input type="radio" name="contactRadio" id="contactRadio" value="yes">yes  <input type="radio" name="contactRadio" id="" value="no">no
+                        </div>
+                        </div>
+                    <div class="row">
+                        <label for="feedback" class="col-md-2">Your Feedback</label>
+                        <div class="col-md-5">
+                            <textarea name="feedback" id="feedback" cols="65" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="button" value="Send" class="btn btn-primary">
+                    </div>
+                </form>
             </div>
-       </div>
+        </div>
 
     </div>
 
@@ -109,7 +149,7 @@
                     <i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
                     <i class="fa fa-envelope fa-lg text-primary"></i> campsites@nucamp.co
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
 
