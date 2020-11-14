@@ -55,6 +55,7 @@
                 <h2 class="text-sm-right">Discover & Review</h2>
             </div>
             <div class="col">
+                <img src="img/" alt="">
                 <h3>Our Campsites</h3>
                 <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
             </div>
@@ -67,6 +68,7 @@
             <div class="col">
                 <h3>React Lake Campground</h3>
                 <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                <img class="d-flex m-1" src="img/react-lake-thumb.jpg" alt="react-lake-thumb">
             </div>
         </div>
 
@@ -77,6 +79,43 @@
             <div class="col">
                 <h3>Bootstrap Outfitters</h3>
                 <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
+            </div>
+        </div>
+        
+        <div class="row row-content align-items-center">
+            <div class="col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white">Reserve Campsite</h3>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+                                <div class="col">
+                                    <select class="form-control" name="numCampers" id="numCampers">
+                                        <option value="">Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                <div class="col">
+                                    <input class="form-control" type="date" id="date" name="date">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button class="btn btn-primary" type="submit">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
