@@ -1,5 +1,15 @@
+#mycolors {
+  color: #f0d8a6;
+  color: #CA7E04;
+  color: #809E9E;
+  color: #628080;
+  color: #182e2e;
+}
+
+
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: beige;
   }
   h1,
   h2,
@@ -7,18 +17,18 @@ body {
     font-family: 'Lobster', cursive;
   }
   h2 {
-    color: #3046c5;
+    color: #628080;
   }
   header h2 {
-    color: #cec8ff;
+    color: #f0d8a6;
   }
   .site-footer {
-    background-image: linear-gradient(#bbb3ff, #eeebff);
+    background-color: #809e9e;
     padding: 20px 0;
   }
   .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-color: #628080;
     color: white;
     margin: 0;
   }
@@ -29,7 +39,7 @@ body {
   }
 
   .navbar {
-    background-color: #901CAD;
+    background-color: #CA7E04;
 }
 
 .tab-content {
@@ -43,12 +53,6 @@ body {
 }
 
 .carousel {
-  border: solid #5637DD;
+  border: 5px solid #628080;
 }
 
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-}
