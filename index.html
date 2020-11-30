@@ -23,16 +23,13 @@
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <a href="index.html"></a><img src="img/logo.png" class="img-fluid" />
-                    <!-- <a href="index.html"></a><img src="img/nucamplogo-02.png" class="img-fluid" /> -->
                 </div>
                 <div class="col">
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col-lg col-md-4 col-xl-2 mt-4">
+                <div class="col-md-4 col-xl-2 mt-4">
                     <a role="button" class="btn btn-lg btn-info text-nowrap" id="reserveButton">Reserve Campsite</a>
-                    <!-- data-toggle="tooltip" title="Or call us at <br/><strong>1-206-555-1234</strong>" data-html="true" data-placement="top" -->
-                    <!-- Reservation Modal -->
                 </div>
             </div>
         </div>
@@ -64,22 +61,21 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <label class="col-sm-6 col-form-label text-dark" for="date">Date</label>
+                                <label class="col-sm-6 col-form-label" for="date">Date</label>
                                 <div class="col">
                                     <input class="form-control" type="date" id="date" name="date">
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <label class="col col-sm-6 col-form-label text-dark" for="">Campsite Type
-                                    <div class="btn-group btn-group-toggle col-sm-6" data-toggle="buttons">
-                                        <label class="btn btn-success active">
-                                            <input type="radio" name="siteType" id="siteTent" value="tent" checked > Tent
-                                        </label>
-                                        <label class="btn btn-primary">
-                                            <input type="radio" name="siteType" id="siteRV" value="RV"> RV
-                                        </label>
-                                    </div>
-                                </label>
+                                <label class="col col-sm-6 col-form-label" for="">Campsite Type</label>
+                                <div class="btn-group btn-group-toggle col-2" data-toggle="buttons">
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="siteType" id="siteTent" value="tent" checked > Tent
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="siteType" id="siteRV" value="RV"> RV
+                                    </label>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <div class="row form-group">
@@ -102,7 +98,6 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
-            <!-- <a class="navbar-brand" href="index.html"><img src="img/nucamplogo-01.jpg" height="50" width="auto" /></a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -165,7 +160,6 @@
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                    
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
@@ -173,39 +167,37 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="/img/breadcrumb-trail.jpg" alt="breadcrumb trails campfround" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h3>Breadcrumb Trails Campfround</h3>
-                            <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path, hike-in-only campground.</p>
-                        </div>
-                        </div>
-                        <div class="carousel-item">
-                        <img src="/img/react-lake.jpg" alt="react lake campground" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h3>React Lake Campfround</h3>
-                            <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                        </div>
+                            <img src="/img/breadcrumb-trail.jpg" alt="breadcrumb trails campfround" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Breadcrumb Trails Campfround</h3>
+                                <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path, hike-in-only campground.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="/img/chrome-river.jpg" alt="chrome river campground" class="d-block w-100">
-                        <div class="carousel-caption">
-                            <h3>Chrome River Campfround</h3>
-                            <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
+                            <img src="/img/react-lake.jpg" alt="react lake campground" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>React Lake Campfround</h3>
+                                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img src="/img/chrome-river.jpg" alt="chrome river campground" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Chrome River Campfround</h3>
+                                <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
+                            </div>
                         </div>
                         <a href="homeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
                         </a>
                         <a href="homeCarousel" class="carousel-control-next" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
                         </a>
-                        
-                            <button class="btn btn-danger btn-sm" id="carouselButton">
-                                <i class="fa fa-pause"></i>
-                            </button>
-                        
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <i class="fa fa-pause"></i>
+                        </button>
                     </div>
                 </div>
             </div>
