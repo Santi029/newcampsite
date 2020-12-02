@@ -50,7 +50,11 @@ header h2 {
   z-index: 100; }
 
 #reserveModal .modal-header {
-  background-color: #17A2B8;}
+  background-color: #17A2B8;
+  color: #ffffff;
+}
 
 #loginModal .modal-header {
-  background-color: #901cad;}
+  background-color: #901cad;
+  color: #ffffff;
+}
