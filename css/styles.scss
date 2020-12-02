@@ -66,8 +66,14 @@ header {
   z-index: 100;
 }
 
-#reserveModal #loginModal{
+#reserveModal {
   .modal-header {
     background-color: $color-teal;
     }
   }
+
+#loginModal {
+  .modal-header {
+    background-color: $color-mid;
+  }
+}
